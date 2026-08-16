@@ -17,7 +17,8 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Neural"
+rootProject.name = "Timetable"
 
 include(":app")
-include(":llama.android")
+
+include(":llama.android:lib")
