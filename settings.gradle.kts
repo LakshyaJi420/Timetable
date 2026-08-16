@@ -20,4 +20,5 @@ dependencyResolutionManagement {
 rootProject.name = "Timetable"
 
 include(":app")
+
 include(":llama.android:lib")
