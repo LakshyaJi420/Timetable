@@ -7,7 +7,9 @@ pluginManagement {
 }
 
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositoriesMode.set(
+        RepositoriesMode.FAIL_ON_PROJECT_REPOS
+    )
 
     repositories {
         google()
@@ -15,6 +17,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "TimetableApp"
+rootProject.name = "Neural"
 
 include(":app")
+include(":llama.android")
